@@ -1,0 +1,21 @@
+# ===== Xcode =====
+# 自分のMacだけの設定（ユーザー名が入る）
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# ビルドしたときにできるファイル
+DerivedData/
+build/
+
+# ===== Swift Package Manager =====
+.build/
+.swiftpm/
+
+# ===== macOS =====
+.DS_Store
+
+# ===== このアプリ用 =====
+# iPadからダウンロードしたアプリのデータ（ランキングに来場者の名前が入っている）
+*.xcappdata
